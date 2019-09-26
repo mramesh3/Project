@@ -1,0 +1,59 @@
+#include "LED.h"
+#include "cmsis_os.h"                   // ARM::CMSIS:RTOS:Keil RTX
+#include "stm32f4xx.h"                  // Device header
+
+int32_t count1,count2,count3; 					// to check and debug for threads
+			
+//Creating the thread definition
+
+void red_thread(void const *argument)
+{
+	while(1)
+	{
+		RED_Toggle();
+		osDelay(100);
+	}
+}
+
+void blue_thread(void const *argument)
+{
+	while(1)
+	{
+		BLUE_toggle();
+		osDelay(100);
+	}
+}
+
+void green_thread(void const *argument)
+{
+	while(1)
+	{
+		GREEN_Toggle();
+		osDelay(100);
+	}
+}
+
+
+//threaddef to define the thread with priority(normal) and number of 
+//instance=1
+
+osThreadDef(red_thread,osPriorityNormal,1,0);				//0-default stack size
+osThreadDef(blue_thread,osPriorityNormal,1,0);
+osThreadDef(green_thread,osPriorityNormal,1,0);
+
+//creating the main function with parameters to manage thread: 
+int main(void)
+{
+	LED_Init();																			//to initialize the LED
+	//creating the thread
+	
+	osThreadCreate(osThread(red_thread),NULL);
+	osThreadCreate(osThread(blue_thread),NULL);
+	osThreadCreate(osThread(green_thread),NULL);
+	
+	while(1)																				//infinite loop
+	{
+	
+	}
+}
+

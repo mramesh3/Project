@@ -6,6 +6,6 @@ This folder consists of:
 
 2) Bare_metal                 - consists of the file with embedded C programming for Tiva C series TM4C123G 
 
-3)) TMC and STM (in progress) - consists of Real time application development files using multithread communication for LED                    Blinking 
+3) TMC and STM (in progress) - consists of Real time application development files using multithread communication for LED                    Blinking 
 
 4) DSA                        - Data structures and algorithm programs 

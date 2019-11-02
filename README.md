@@ -9,3 +9,5 @@ This folder consists of:
 3) TMC and STM (in progress) - consists of Real time application development files using multithread communication for LED                    Blinking 
 
 4) DSA                        - Data structures and algorithm programs 
+
+5) MQTT                       - MQTT Projects using Arduino and ESP32  

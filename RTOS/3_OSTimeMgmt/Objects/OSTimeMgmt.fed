@@ -1,0 +1,137 @@
+;#<FEEDBACK># ARM Linker, 5060750: Last Updated: Fri Nov 01 21:41:44 2019
+;VERSION 0.2
+;FILE hal_cm.o
+;FILE hal_cm4.o
+OS_Tick_Handler <= USED 0
+_alloc_box <= USED 0
+_free_box <= USED 0
+os_set_env <= USED 0
+rt_set_PSP <= USED 0
+;FILE led.o
+__asm___5_led_c_LED_Init____REV16 <= USED 0
+__asm___5_led_c_LED_Init____REVSH <= USED 0
+__asm___5_led_c_LED_Init____RRX <= USED 0
+;FILE main.o
+__asm___6_main_c_32c6c022____REV16 <= USED 0
+__asm___6_main_c_32c6c022____REVSH <= USED 0
+__asm___6_main_c_32c6c022____RRX <= USED 0
+;FILE rt_cmsis.o
+__asm___10_rt_CMSIS_c_8216d75d____REV16 <= USED 0
+__asm___10_rt_CMSIS_c_8216d75d____REVSH <= USED 0
+__asm___10_rt_CMSIS_c_8216d75d____RRX <= USED 0
+isrSemaphoreRelease <= USED 0
+isrSignalSet <= USED 0
+osKernelRunning <= USED 0
+osKernelSysTick <= USED 0
+osMailAlloc <= USED 0
+osMailCAlloc <= USED 0
+osMailCreate <= USED 0
+osMailFree <= USED 0
+osMailGet <= USED 0
+osMailPut <= USED 0
+osMessageCreate <= USED 0
+osMessagePut <= USED 0
+osMutexCreate <= USED 0
+osMutexDelete <= USED 0
+osMutexRelease <= USED 0
+osMutexWait <= USED 0
+osPoolAlloc <= USED 0
+osPoolCAlloc <= USED 0
+osPoolCreate <= USED 0
+osPoolFree <= USED 0
+osSemaphoreCreate <= USED 0
+osSemaphoreDelete <= USED 0
+osSemaphoreRelease <= USED 0
+osSemaphoreWait <= USED 0
+osSignalClear <= USED 0
+osSignalSet <= USED 0
+osSignalWait <= USED 0
+osThreadGetId <= USED 0
+osThreadGetPriority <= USED 0
+osThreadSetPriority <= USED 0
+osThreadTerminate <= USED 0
+osThreadYield <= USED 0
+osTimerCreate <= USED 0
+osTimerDelete <= USED 0
+osTimerStart <= USED 0
+osTimerStop <= USED 0
+osWait <= USED 0
+os_resume <= USED 0
+os_suspend <= USED 0
+svcKernelRunning <= USED 0
+svcKernelSysTick <= USED 0
+svcMailCreate <= USED 0
+svcMessagePut <= USED 0
+svcMutexCreate <= USED 0
+svcMutexDelete <= USED 0
+svcMutexRelease <= USED 0
+svcMutexWait <= USED 0
+svcPoolCreate <= USED 0
+svcSemaphoreCreate <= USED 0
+svcSemaphoreDelete <= USED 0
+svcSemaphoreRelease <= USED 0
+svcSemaphoreWait <= USED 0
+svcSignalClear <= USED 0
+svcSignalSet <= USED 0
+svcSignalWait <= USED 0
+svcThreadGetPriority <= USED 0
+svcThreadSetPriority <= USED 0
+svcThreadYield <= USED 0
+svcTimerCreate <= USED 0
+svcTimerDelete <= USED 0
+svcTimerStart <= USED 0
+svcTimerStop <= USED 0
+sysMailAlloc <= USED 0
+sysMailFree <= USED 0
+sysPoolAlloc <= USED 0
+sysPoolFree <= USED 0
+sysUserTimerUpdate <= USED 0
+sysUserTimerWakeupTime <= USED 0
+;FILE rt_event.o
+isr_evt_set <= USED 0
+rt_evt_clr <= USED 0
+rt_evt_get <= USED 0
+rt_evt_set <= USED 0
+rt_evt_wait <= USED 0
+;FILE rt_list.o
+rt_get_same_rdy_prio <= USED 0
+;FILE rt_mailbox.o
+rt_mbx_send <= USED 0
+;FILE rt_membox.o
+_calloc_box <= USED 0
+;FILE rt_memory.o
+;FILE rt_mutex.o
+rt_mut_delete <= USED 0
+rt_mut_init <= USED 0
+;FILE rt_robin.o
+;FILE rt_semaphore.o
+isr_sem_send <= USED 0
+rt_sem_delete <= USED 0
+rt_sem_init <= USED 0
+rt_sem_send <= USED 0
+rt_sem_wait <= USED 0
+;FILE rt_system.o
+os_tick_irqack <= USED 0
+os_tick_ovf <= USED 0
+os_tick_val <= USED 0
+rt_resume <= USED 0
+rt_suspend <= USED 0
+rt_tsk_lock <= USED 0
+rt_tsk_unlock <= USED 0
+;FILE rt_task.o
+rt_tsk_pass <= USED 0
+;FILE rt_time.o
+rt_itv_set <= USED 0
+rt_itv_wait <= USED 0
+rt_time_get <= USED 0
+;FILE rtx_conf_cm.o
+__user_perthread_libspace <= USED 0
+_mutex_acquire <= USED 0
+_mutex_initialize <= USED 0
+_mutex_release <= USED 0
+;FILE startup_stm32f411xe.o
+;FILE system_stm32f4xx.o
+SystemCoreClockUpdate <= USED 0
+__asm___18_system_stm32f4xx_c_5d646a67____REV16 <= USED 0
+__asm___18_system_stm32f4xx_c_5d646a67____REVSH <= USED 0
+__asm___18_system_stm32f4xx_c_5d646a67____RRX <= USED 0

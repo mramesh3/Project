@@ -11,3 +11,5 @@ This folder consists of:
 4) DSA                        - Data structures and algorithm programs 
 
 5) MQTT                       - MQTT Projects using Arduino and ESP32  
+
+6) RTOS                       - Project files for multi thread application development- thread management, thread creation etc
